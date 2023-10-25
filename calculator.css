@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+}
+form{
+    position:fixed;
+}
+.full{
+    background-color:rgb(9, 5, 47);
+    text-align:center;
+    height:fit-content;
+    width:max-content;
+    padding:30px;
+    margin-left:400px;
+ 
+
+}
+.full #buttons{
+    background-color: black;
+    margin-top:10px;
+    border-radius:10px;
+}
+.full h1{
+    color: white;
+    text-align:center;
+    background-color: rgb(59, 32, 103);
+    border-radius: 10px;
+    padding:10px;
+    font-size: large;
+}
+.full #line1,#line2,#line3,#line4,#result{
+   padding:15px;
+   font-size: large;
+   padding-left:50px;
+}
+.full #line1 #seven,#eight, #plus, #nine,#line2 #four,#five,#six,#minus
+,#line3 #one,#two,#three,#star,#line4 #c,#zero,#dot,#divide,#result #equal
+{
+    border:none;
+    padding:15px 20px;
+    text-align: center;
+    font-size: larger;
+    margin-right: 40px;
+    box-shadow: 12px;
+    border-radius:10px;
+}
+.full #line1 #plus:hover,#line2 #minus:hover,#line3 #star:hover,#line4 #divide:hover{
+   background-color: red;
+}
+.full #line4 #c:hover{
+ background-color:chartreuse;
+}
+
+.full #display #show{
+    padding-top:20px;
+    border-radius:10px;
+    font-size: large;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form name="form1">
+    <div class="full">
+    <h1>Calculator</h1>
+    <div id="display">
+        <input type="text" size="50" name="display1" id="show">
+    </div>
+    <div id="buttons">
+    <div id="line1">
+        <input type="button" name="7" value="7" id="seven" onclick="form1.display1.value+=7">
+        <input type="button" name="8" value="8" id="eight" onclick="form1.display1.value+=8">
+        <input type="button" name="9" value="9" id="nine" onclick="form1.display1.value+=9">
+        <input type="button" name="*" value="+" id="plus" onclick="form1.display1.value+='+'">
+    </div>
+    <div id="line2">
+        <input type="button" value="4" id="four" onclick="form1.display1.value+=4">
+        <input type="button" value="5" id="five" onclick="form1.display1.value+=5">
+        <input type="button" value="6" id="six" onclick="form1.display1.value+=6">
+        <input type="button" value="-" id="minus" onclick="form1.display1.value+='-'">
+    </div>
+    <div id="line3">
+        <input type="button" value="1" id="one" onclick="form1.display1.value+=1">
+        <input type="button" value="2" id="two" onclick="form1.display1.value+=2">
+        <input type="button" value="3" id="three" onclick="form1.display1.value+=3">
+        <input type="button" value="*" id="star" onclick="form1.display1.value+='*'">
+    </div>
+    <div id="line4">
+        <input type="button" value="C" id="c"  onclick="form1.display1.value=''">
+        <input type="button" value="0" id="zero" onclick="form1.display1.value+=0">
+        <input type="button" value="." id="dot" onclick="form1.display1.value+='.'">
+        <input type="button" value="/" id="divide" onclick="form1.display1.value+='/'">
+    </div>
+    <div id="result">
+        <input type="button" value="=" id="equal" onclick="form1.display1.value=eval(form1.display1.value)">
+    </div>
+</div>
+</div>
+</form>
+</body>
+</html>
